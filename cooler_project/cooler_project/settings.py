@@ -55,7 +55,7 @@ ROOT_URLCONF = 'cooler_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/cooler_app'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
